@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>👥 Users Dashboard</h1>
+        <p>მომხმარებლების საინფორმაციო პანელი</p>
+    </header>
+
+    <main class="container">
+        <div class="top-bar">
+            <h2>მომხმარებლები</h2>
+            <input
+                type="search"
+                id="search"
+                placeholder="🔎 მოძებნე მომხმარებელი..."
+                aria-label="მომხმარებლის ძებნა"
+            >
+            <button id="reload">↻ განახლება</button>
+        </div>
+
+        <p id="status" role="status">მონაცემები იტვირთება...</p>
+        <section class="users" id="users"></section>
+    </main>
+
+    <footer>
+        Users Dashboard © 2026 | Fake Store API
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
